@@ -119,4 +119,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
-MEDIA_ROOT = '/home/oss/video-app-Django/Videoapp/videoapp/static/videos/'
+MEDIA_ROOT = '/opt/videos/'

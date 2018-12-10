@@ -13,7 +13,7 @@
   <body>
     <nav class="navbar navbar-default navbar-static-top text-center">
       <a href="/">
-        <img src="{% static 'images/logo.png' %}" alt="EmployeeManager" width="150" height="100">
+        <img src="{% static 'images/logo.jpg' %}" alt="EmployeeManager" width="500" height="150">
       </a>
     </nav>
   
@@ -31,7 +31,7 @@
 
       <div class="video-video">
         <video width='320' height= '240' controls>
-          <source src="{% static 'videos/"{{ video.videofile }}"' type='video/mp4' %}">
+          <source src="{% static "videos/" type='video/mp4' %}{{ video.videofile }}">
           Your browser does not support the video tag.
         </video>
       </div>
@@ -40,7 +40,7 @@
 
           <tr>
             <th>
-              <img src="{% static 'images/empid-icon.png' %}" width="15" height="15">
+              <img src="{% static 'images/desc-icon.png' %}" width="15" height="15">
               Description:
             </th>
             <td>
@@ -50,7 +50,7 @@
 
           <tr>
             <th>
-              <img src="{% static 'images/entpid-icon.png' %}" width="15" height="15">
+              <img src="{% static 'images/update-icon.png' %}" width="15" height="15">
               Uploaded on:
             </th>
               <td>{{ video.update }}</td>
